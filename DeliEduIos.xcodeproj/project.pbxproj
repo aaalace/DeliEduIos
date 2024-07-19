@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F26869F2C494E4100AAE4F6 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26869E2C494E4100AAE4F6 /* AuthApi.swift */; };
+		3F9B72042C47DDDD001F12CC /* DeliEduIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B72032C47DDDD001F12CC /* DeliEduIosApp.swift */; };
+		3F9B72082C47DDDD001F12CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B72072C47DDDD001F12CC /* Assets.xcassets */; };
+		3F9B720B2C47DDDD001F12CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B720A2C47DDDD001F12CC /* Preview Assets.xcassets */; };
+		3F9B72142C47DEE6001F12CC /* DashboardV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B72132C47DEE6001F12CC /* DashboardV.swift */; };
+		3F9B72172C47E26A001F12CC /* InviteM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B72162C47E26A001F12CC /* InviteM.swift */; };
+		3F9B721B2C47ED78001F12CC /* InviteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B721A2C47ED78001F12CC /* InviteApi.swift */; };
+		3F9B721E2C47F9F9001F12CC /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B721D2C47F9F9001F12CC /* AuthManager.swift */; };
+		3F9B72202C47FA53001F12CC /* RegistrationV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B721F2C47FA53001F12CC /* RegistrationV.swift */; };
+		3F9B72252C47FD11001F12CC /* AppRootV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B72242C47FD11001F12CC /* AppRootV.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F26869E2C494E4100AAE4F6 /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		3F9B72002C47DDDD001F12CC /* DeliEduIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliEduIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9B72032C47DDDD001F12CC /* DeliEduIosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliEduIosApp.swift; sourceTree = "<group>"; };
+		3F9B72072C47DDDD001F12CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9B720A2C47DDDD001F12CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F9B72132C47DEE6001F12CC /* DashboardV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardV.swift; sourceTree = "<group>"; };
+		3F9B72162C47E26A001F12CC /* InviteM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteM.swift; sourceTree = "<group>"; };
+		3F9B721A2C47ED78001F12CC /* InviteApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteApi.swift; sourceTree = "<group>"; };
+		3F9B721D2C47F9F9001F12CC /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		3F9B721F2C47FA53001F12CC /* RegistrationV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationV.swift; sourceTree = "<group>"; };
+		3F9B72242C47FD11001F12CC /* AppRootV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootV.swift; sourceTree = "<group>"; };
+		3FD2B6722C4A769E00CAD3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9B71FD2C47DDDD001F12CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9B71F72C47DDDD001F12CC = {
+			isa = PBXGroup;
+			children = (
+				3F9B72022C47DDDD001F12CC /* DeliEduIos */,
+				3F9B72012C47DDDD001F12CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9B72012C47DDDD001F12CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B72002C47DDDD001F12CC /* DeliEduIos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9B72022C47DDDD001F12CC /* DeliEduIos */ = {
+			isa = PBXGroup;
+			children = (
+				3FD2B6722C4A769E00CAD3FA /* Info.plist */,
+				3F9B721C2C47F9DA001F12CC /* Store */,
+				3F9B72192C47ED51001F12CC /* Network */,
+				3F9B72152C47DF80001F12CC /* Models */,
+				3F9B72122C47DE8E001F12CC /* Views */,
+				3F9B72112C47DE7A001F12CC /* App */,
+				3F9B72072C47DDDD001F12CC /* Assets.xcassets */,
+				3F9B72092C47DDDD001F12CC /* Preview Content */,
+			);
+			path = DeliEduIos;
+			sourceTree = "<group>";
+		};
+		3F9B72092C47DDDD001F12CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B720A2C47DDDD001F12CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F9B72112C47DE7A001F12CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B72032C47DDDD001F12CC /* DeliEduIosApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3F9B72122C47DE8E001F12CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B72132C47DEE6001F12CC /* DashboardV.swift */,
+				3F9B721F2C47FA53001F12CC /* RegistrationV.swift */,
+				3F9B72242C47FD11001F12CC /* AppRootV.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F9B72152C47DF80001F12CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B72162C47E26A001F12CC /* InviteM.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F9B72192C47ED51001F12CC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B721A2C47ED78001F12CC /* InviteApi.swift */,
+				3F26869E2C494E4100AAE4F6 /* AuthApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3F9B721C2C47F9DA001F12CC /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B721D2C47F9F9001F12CC /* AuthManager.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9B71FF2C47DDDD001F12CC /* DeliEduIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9B720E2C47DDDD001F12CC /* Build configuration list for PBXNativeTarget "DeliEduIos" */;
+			buildPhases = (
+				3F9B71FC2C47DDDD001F12CC /* Sources */,
+				3F9B71FD2C47DDDD001F12CC /* Frameworks */,
+				3F9B71FE2C47DDDD001F12CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeliEduIos;
+			productName = DeliEduIos;
+			productReference = 3F9B72002C47DDDD001F12CC /* DeliEduIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9B71F82C47DDDD001F12CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3F9B71FF2C47DDDD001F12CC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 3F9B71FB2C47DDDD001F12CC /* Build configuration list for PBXProject "DeliEduIos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9B71F72C47DDDD001F12CC;
+			productRefGroup = 3F9B72012C47DDDD001F12CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9B71FF2C47DDDD001F12CC /* DeliEduIos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9B71FE2C47DDDD001F12CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9B720B2C47DDDD001F12CC /* Preview Assets.xcassets in Resources */,
+				3F9B72082C47DDDD001F12CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9B71FC2C47DDDD001F12CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9B72142C47DEE6001F12CC /* DashboardV.swift in Sources */,
+				3F9B72042C47DDDD001F12CC /* DeliEduIosApp.swift in Sources */,
+				3F9B721E2C47F9F9001F12CC /* AuthManager.swift in Sources */,
+				3F9B72252C47FD11001F12CC /* AppRootV.swift in Sources */,
+				3F26869F2C494E4100AAE4F6 /* AuthApi.swift in Sources */,
+				3F9B72172C47E26A001F12CC /* InviteM.swift in Sources */,
+				3F9B72202C47FA53001F12CC /* RegistrationV.swift in Sources */,
+				3F9B721B2C47ED78001F12CC /* InviteApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F9B720C2C47DDDD001F12CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F9B720D2C47DDDD001F12CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9B720F2C47DDDD001F12CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeliEduIos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeliEduIos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DeliEduIos.DeliEduIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9B72102C47DDDD001F12CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeliEduIos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeliEduIos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DeliEduIos.DeliEduIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9B71FB2C47DDDD001F12CC /* Build configuration list for PBXProject "DeliEduIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9B720C2C47DDDD001F12CC /* Debug */,
+				3F9B720D2C47DDDD001F12CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9B720E2C47DDDD001F12CC /* Build configuration list for PBXNativeTarget "DeliEduIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9B720F2C47DDDD001F12CC /* Debug */,
+				3F9B72102C47DDDD001F12CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9B71F82C47DDDD001F12CC /* Project object */;
+}
